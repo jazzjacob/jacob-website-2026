@@ -6,8 +6,6 @@
 }
 
 body {
-  height: 100vh;
-  height: -webkit-fill-available;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -16,6 +14,7 @@ body {
 }
 
 footer {
+  margin-top: 32px;
   width: 100%;
 }
 
