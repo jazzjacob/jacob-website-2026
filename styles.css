@@ -44,8 +44,11 @@ a:visited {
   color: inherit;
 }
 
-a:hover {
-  color: darkorange;
+a:hover,
+a:focus {
+  color: white;
+  background-color: black;
+  outline: 1px solid black;
 }
 
 a {
