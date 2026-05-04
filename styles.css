@@ -13,6 +13,22 @@ body {
   max-width: 600px;
 }
 
+.skip-link {
+  color: red;
+  position: absolute;
+  left: 0;
+  top: 0;
+  transform: translateY(-100%);
+  font-family: sans-serif;
+  text-decoration: none;
+  padding: 0.1rem 0.2rem;
+
+}
+
+.skip-link:focus {
+  transform: translateX(0);
+}
+
 footer {
   margin-top: 32px;
   width: 100%;
@@ -49,6 +65,7 @@ a:focus {
   color: white;
   background-color: black;
   outline: 1px solid black;
+  text-decoration: none;
 }
 
 a {
